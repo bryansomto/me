@@ -1,7 +1,3 @@
-col-12{
-  margin: 0px;
-  padding: 0px;
-}
 a, a:hover{
   color: inherit;
 }
@@ -11,13 +7,18 @@ a, a:hover{
 .dropdown-item{
   color: #999;
 }
+.row{
+  margin-left: 0;
+  margin-right: 0;
+  padding: 0;
+  /*border: solid 1px red;*/
+}
 section>article>p{
   font-family: 'Montserrat', sans-serif;
   font-weight: 500;
   font-size: 1.2em;
   position: absolute;
   z-index: 100;
-  margin-left: 15px;
   padding: 1%;
   background-image: linear-gradient(to right, rgba(255,255,255,.6), rgba(255,255,255,1), rgba(255,255,255,.6));
 }
@@ -54,13 +55,17 @@ div>article>figure>p{
   /*border: solid 1px red;*/
   width: 100%;
   height: 80px;
+  padding: 2px;
   white-space: normal;
   display: inline-block;
   overflow: auto;
 }
-footer nav p{
+footer nav ul p{
   font-family: 'Titillium Web', sans-serif;
   color: #fff;
+}
+footer ul{
+  text-align: center;
 }
 footer>p{
   text-align: center;
@@ -72,8 +77,4 @@ footer>p{
 footer .navbar-nav {
   -ms-flex-direction: row;
   flex-direction: row;
-}
-footer .row, footer li{
-  /* border: solid 1px green; */
-  margin-left: 0;
 }

@@ -20,6 +20,15 @@ header h2{
   font-size: 1em;
   margin-top: -70px;
 }
+@media all and (min-width: 420px){
+  header .cover{
+    top: -130px;
+  }
+  header h2{
+    margin-top: -22%;
+    font-size: 1.5em;
+  }
+}
 @media all and (min-width: 720px){
   header .cover{
     top: -110px;

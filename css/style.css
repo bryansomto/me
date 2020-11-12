@@ -1,0 +1,63 @@
+/**{*/
+/*  border: solid 1px red;*/
+/*}*/
+body{
+  background-color: #eee;
+}
+header div{
+  background-color: #000;
+  background-image: url("../img/phone6.jpg");
+}
+header img{
+  border-radius: 50%;
+  top: 60px;
+}
+h2{
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 500;
+  font-size: 1.1em;
+}
+header h2{
+  font-family: 'Titillium Web', sans-serif;
+  padding: 4% 6%;
+  margin-top: 17%;
+  font-size: 1em;
+}
+
+@media all and (min-width: 720px){
+  header img{
+    top: 110px;
+  }
+  header h2{
+    margin-top: 0;
+    font-size: 1.5em;
+  }
+}
+section{
+  background-color: #fff;
+  margin: 8%;
+  padding: 2%;
+}
+section h1, section p{
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 500;
+  font-size: 1em;
+  text-align: center;
+}
+section h1{
+  font-family: 'Nunito', sans-serif;
+  font-weight: 400;
+  padding: 2%;
+  font-size: 1.5em;
+  text-decoration: underline;
+}
+@media all and (min-width:720px){
+  section p{
+  line-height: 2em;
+  text-align: center;
+  }
+  section h1{
+    font-size: 2em;
+    text-decoration: none;
+  }
+}

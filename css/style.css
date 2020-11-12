@@ -18,7 +18,7 @@ header h2{
   font-family: 'Titillium Web', sans-serif;
   padding: 4% 8%;
   font-size: 1em;
-  margin-top: -24%;
+  margin-top: -28%;
 }
 @media all and (min-width: 720px){
   header .cover{

@@ -4,13 +4,13 @@
 body{
   background-color: #eee;
 }
-header div{
-  background-color: #000;
-  background-image: url("../img/phone6.jpg");
+#carousel{
+  height: 300px;
 }
-header img{
+header .cover{
   border-radius: 50%;
-  top: 60px;
+  top: -65px;
+  display: absolute;
 }
 h2{
   font-family: 'Montserrat', sans-serif;
@@ -20,16 +20,16 @@ h2{
 header h2{
   font-family: 'Titillium Web', sans-serif;
   padding: 4% 6%;
-  margin-top: 17%;
   font-size: 1em;
+  margin-top: -24%;
 }
 
 @media all and (min-width: 720px){
-  header img{
-    top: 110px;
+  header .cover{
+    top: -110px;
   }
   header h2{
-    margin-top: 0;
+    margin-top: -20%;
     font-size: 1.5em;
   }
 }

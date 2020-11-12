@@ -1,2 +1,2 @@
 # bryansomto.github.io
-This is the project phonereel repository.
+This is an ongoing project and the images on the portfolio section do not belong to me.

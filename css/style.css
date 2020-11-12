@@ -4,9 +4,6 @@
 body{
   background-color: #eee;
 }
-#carousel{
-  height: 300px;
-}
 header .cover{
   border-radius: 50%;
   top: -65px;
@@ -19,11 +16,10 @@ h2{
 }
 header h2{
   font-family: 'Titillium Web', sans-serif;
-  padding: 4% 6%;
+  padding: 4% 7%;
   font-size: 1em;
   margin-top: -24%;
 }
-
 @media all and (min-width: 720px){
   header .cover{
     top: -110px;

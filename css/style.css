@@ -4,6 +4,14 @@
 body{
   background-color: #eee;
 }
+.w-100{
+  height: 150px;
+}
+@media all and (min-width: 720px){
+  .w-100{
+    height: 250px;
+  }
+}
 header .cover{
   border-radius: 50%;
   top: -65px;
@@ -22,10 +30,10 @@ header h2{
 }
 @media all and (min-width: 420px){
   header .cover{
-    top: -130px;
+    top: -80px;
   }
   header h2{
-    margin-top: -22%;
+    margin-top: -17%;
     font-size: 1.5em;
   }
 }

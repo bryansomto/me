@@ -42,8 +42,12 @@ header h2{
     top: -110px;
   }
   header h2{
-    margin-top: -22%;
     font-size: 1.5em;
+  }
+}
+@media all and (min-width: 768px){
+  header .cover{
+    top: -80px;
   }
 }
 section{

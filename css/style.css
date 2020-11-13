@@ -50,6 +50,11 @@ header h2{
     top: -80px;
   }
 }
+@media all and (min-width: 1024px){
+  header .cover{
+    top: -110px;
+  }
+}
 section{
   background-color: #fff;
   margin: 8%;

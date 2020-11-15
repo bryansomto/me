@@ -19,24 +19,7 @@
    
     <!--My CSS and JQuery-->
     <link rel="stylesheet" href="css/style.css" type="text/css" media="all" />
-    <script type="text/javascript" charset="utf-8">
-      $(document).ready(function(){
-        $(window).scroll(function(){
-          var windowTop = $(this).scrollTop() + 100;
-          $("section").each(function(){
-            /* Check the location of each desired element */
-            var objectBottom = $(this).offset().top + $(this).outerHeight();
-            /* If the element is completely within bounds of the window, fade it in */
-            if (objectBottom < windowTop){ //object comes into view (scrolling down)
-              if ($(this).css("opacity")==1) {$(this).fadeTo(1000,0);}
-              } 
-              //object goes out of view (scrolling up)
-              else if ($(this).css("opacity")==0) {$(this).fadeTo(1000,1);
-              }
-            });
-        }).scroll()//invoke scroll-handler on page-load
-      });
-    </script>
+    <script src="js/fadeSection.js" type="text/javascript" charset="utf-8"></script>
     
   </head>
   <body>

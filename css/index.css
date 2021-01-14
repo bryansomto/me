@@ -1,0 +1,36 @@
+{
+ border: solid 1px black
+}
+body{
+  height: 100vh;
+  font-family: 'Montserrat', sans-serif;
+  background-color: #eee;
+}
+section{
+  position: relative;
+  top: 10vh;
+}
+h1{
+  text-align: center;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 500;
+  font-size: 3em;
+}
+.btn{
+  display: block;
+  margin: 5% auto;
+  padding: .2em;
+}
+button>a{
+  display: inline-block;
+  width: inherit;
+  font-size: 1.3em;
+  color: #eee;
+  text-decoration: none;
+}
+button>a:hover{
+  text-decoration: none;
+  font-variant: small-caps;
+  color: #eee;
+  font-size: 1.5em;
+}

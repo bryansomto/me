@@ -1,6 +1,3 @@
-{
-  border: solid 1px black;
-}
 .calculator-body{
   width: 100%;
   height: 720px;
@@ -62,6 +59,7 @@
   text-align: right;
   text-indent: 30px;
   padding-right: 10%;
+  transition: all .1s ease-in;
 }
 .result_main{
   color: #000;

@@ -24,7 +24,7 @@
   top: 3%;
   left: 85%;
 }
-.fa-sun{
+.fa-cloud-sun{
   display: none;
 }
 .fa-moon{
@@ -131,7 +131,7 @@ body.dark-theme .Disptoggle_btn{
 body.dark-theme .fa-moon{
   display: none;
 }
-body.dark-theme .fa-sun{
+body.dark-theme .fa-cloud-sun{
   display: inline;
 }
 body.dark-theme #input-field{
